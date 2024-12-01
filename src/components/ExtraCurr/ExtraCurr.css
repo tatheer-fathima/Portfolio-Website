@@ -1,0 +1,54 @@
+.extra-curriculars-container {
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.extra-curriculars-container h5 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.extra-curriculars-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.extra-curricular-card {
+    background: #130f2a;
+    border: 1.5px solid rgba(103,81,185,0.5);
+    border-radius: 0.65rem;
+    padding: 1.5rem;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.extra-curricular-card h6 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 1rem 0 0.5rem;
+}
+
+.extra-curricular-subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #a5a5a5;
+    margin-bottom: 0.5rem;
+}
+
+.extra-curricular-date {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #a5a5a5;
+    margin-bottom: 1rem;
+}
+
+.extra-curricular-description {
+    font-size: 0/7rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}

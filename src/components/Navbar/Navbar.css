@@ -1,0 +1,92 @@
+.cursive-text {
+    font-family: Lucida Handwriting, cursive;
+}
+.nav-wrapper {
+    position: fixed; /* Fixes the navbar at a specific position */
+    top: 0; /* Sticks it to the top of the viewport */
+    left: 0; /* Sticks it to the left edge */
+    width: 100%; 
+    background: rgba(0,0,0,0,1);
+    padding: 0.5rem 0;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(50px);
+}
+.nav-content {
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 12rem;
+    height: auto;
+}
+
+.nav-content ul {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.nav-content li {
+    margin: 0 1.5rem;
+}
+
+.menu-item {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-item::before {
+    content: " ";
+    width: 2rem;
+    height: 0.2rem;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: -0.6rem;
+    opacity: 0;
+    transform: translateX(-1.5rem);
+    transition: all 0.3s ease;
+}
+
+.menu-item:hover::before {
+    width: 100%;
+    transform: translate(0);
+    opacity: 1;
+}
+
+.contact-btn {
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    padding: 1rem 2rem;
+    border: none;
+    outline: 1.5px solid transparent;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contact-btn a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Ensure the text color matches the button */
+  }
+.contact-btn:hover {
+    background: #000;
+    color: #a993f3;
+    outline: 1.5px solid #a993f3;
+}
+

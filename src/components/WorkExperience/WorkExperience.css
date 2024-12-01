@@ -1,0 +1,18 @@
+.experience-container{
+    margin: 4rem 0;
+    position: relative;
+}
+.experience-container h5{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    margin-left: 36rem;
+}
+.experience-content {
+    width: 85%; /* Adjust the width of the slider container */
+    max-width: 1200px; /* Set a maximum width for large screens */
+    margin: 0 auto; /* Center-align the slider */
+    padding: 2rem; /* Add padding for spacing */
+    border-radius: 10px; /* Rounded corners for a polished look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}

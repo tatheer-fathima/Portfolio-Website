@@ -1,0 +1,77 @@
+.projects-container {
+    margin: 5rem 0;
+    text-align: center;
+  }
+  
+  .projects-container h5 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .project-card {
+    background: #130f2a;
+    border: 1.5px solid rgba(103,81,185,0.5);
+    border-radius: 0.65rem;
+    padding: 1.5rem;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card h6 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .project-date {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #a5a5a5;
+    margin-bottom: 1rem;
+  }
+  
+  .project-description {
+    font-size: 0/7rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-links {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .project-link {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(103,81,185,0.5);
+    padding: 0.6rem 1rem;
+    border-radius: 0.3rem;
+    font-size: 0.7rem;
+    font-weight: 400;
+    transition: background 0.3s;
+  }
+  
+  .project-link:hover {
+    background: #524a99;
+  }
+  
+  .project-image {
+    width: 100%; /* Set the desired width */
+    height: 200px; /* Set the desired height to create a rectangular shape */
+    border-radius: 0.65rem; /* Keep the rounded corners */
+    margin-bottom: 1rem;
+    object-fit: cover; /* Ensures the image fits inside the rectangle */
+  }
+  
+  
