@@ -1,15 +1,16 @@
 .contact-form-content {
-    width: 79%;
+    width: 89%;
+    margin-top: -30px;
 }
 form{
     display: flex;
     flex-direction: column;
-    grid-gap: 1.5rem;
+    grid-gap: 2rem;
 }
 .name-container{
     display: flex;
     align-items: center;
-    grid-gap: 1.5rem;
+    grid-gap: 2rem;
 }
 form input,
 form textarea {
@@ -43,7 +44,7 @@ form button:hover {
 
 .contact-form-content {
   align-items: flex-start; 
-  padding: 20px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between; 
@@ -51,8 +52,8 @@ form button:hover {
 
 footer {
   text-align: left; 
-  margin-top: 10px;
-  margin-left: -150px;
+  margin-top: 15px;
+  margin-left: -100px;
 }
 
 .social-links {
