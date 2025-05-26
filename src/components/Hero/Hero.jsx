@@ -12,10 +12,9 @@ const Hero = () => {
             <div className="hero-content">
                 <h2>Hello People! </h2>
                 <h2>I'm Tatheer Fathima</h2>
-                <p>A Pre Final Year Computer Science Student
+                <p>Final Year Computer Science Student
                 </p>
-                <p>Aspiring MERN Stack Developer 
-                & Competitive Programmer</p>
+                <p>Aspiring about Software Development and Machine Learning</p>
             </div>
            
            <div className="hero-img">

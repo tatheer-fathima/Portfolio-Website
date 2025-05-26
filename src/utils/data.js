@@ -129,13 +129,7 @@ export const PROJECTS = [
 ];
 
 export const EXTRA_CURRICULARS = [
-    {
-        title: "GSSoC Top 100 Contributor",
-        subtitle: "GirlScript Summer of Code- Exteded Edition 2024",
-        date: "October 2024 - November 2024",
-        image: one,
-        description: "Achieved 77th rank among 3900+ active contributors and 60k+ participants, contributing to open-source projects.",
-    },
+    
     {
         title: "Secretary",
         subtitle: "Association of Computer Intellects (ASCI) Club",
